@@ -1,20 +1,19 @@
 const { Router } = require("express");
 
-// Controladores
+const upload = require("../services/multer/config");
+
 const getUsers = require("../controllers/User/getUsers");
 const getUserById = require("../controllers/User/getUserById");
 const deleteUser = require("../controllers/User/deleteUser");
 const signUp = require("../controllers/User/signUp");
 const login = require("../controllers/User/login");
-
-// Middlewares
-// const verifyToken = require("../middlewares/verifyToken");
-// const refreshToken = require("../middlewares/refreshToken");
-// const signTokens = require("../middlewares/signTokens");
+const postProfileImg = require("../controllers/User/postProfileImg");
+const restoreUser = require("../controllers/User/restoreUser");
+const putUser = require("../controllers/User/putUser");
 
 const router = Router();
 
-//GET
+// GET
 router.get("/", async (req, res) => {
   try {
     const users = await getUsers();
@@ -56,6 +55,18 @@ router.delete("/delete/:id", async (req, res) => {
   }
 });
 
+router.put("/restore/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    await restoreUser(id);
+
+    res.status(200).json({ message: "The user has been restored" });
+  } catch (error) {
+    console.log(error.message);
+    res.status(400).json({ error: error.message });
+  }
+});
+
 //POST
 router.post("/signup", async (req, res) => {
   try {
@@ -71,6 +82,22 @@ router.post("/signup", async (req, res) => {
     res.status(400).send(error.message);
   }
 });
+
+router.put("/update/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const data = req.body;
+
+    const user = await putUser(id, data);
+
+    res.status(200).json(user);
+  } catch (error) {
+    console.log(error.message);
+    res.status(400).json({ error: error.message });
+  }
+});
+
+router.post("/profile/:id", upload.single("image"), postProfileImg);
 
 // router.post("/login", async (req, res) => {
 //   try {

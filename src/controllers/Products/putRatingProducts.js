@@ -1,5 +1,5 @@
 const db = require("../../db");
-const avgRating = require("../../utils/helpers/Average/avgRating");
+const avgRating = require("../../utils/helpers/avgRating");
 
 const ratingProduct = async (id, rating) => {
   const product = await db.Product.findByPk(id);

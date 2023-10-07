@@ -1,8 +1,11 @@
 const express = require("express");
-const router = require("./routes");
 const morgan = require("morgan");
 const cors = require("cors");
 const mercadopago = require("mercadopago");
+const helmet = require("helmet");
+const compression = require("compression");
+
+const router = require("./routes");
 
 const server = express();
 
@@ -11,8 +14,10 @@ mercadopago.configure({
 });
 
 server.use(express.urlencoded({ extended: false }));
-server.use(morgan("dev"));
 server.use(express.json());
+server.use(morgan("dev"));
+server.use(helmet());
+server.use(compression());
 server.use(cors());
 
 server.use("/api", router);

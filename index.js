@@ -6,7 +6,7 @@ const dataProducts = require("./api/db.json");
 const { Product } = require("./src/db");
 const PORT = process.env.PORT || 3001;
 
-const calculateAverageRating = require("./src/utils/helpers/Average/avgRating");
+const calculateAverageRating = require("./src/utils/helpers/avgRating");
 
 conn
   .sync({ force: true })
@@ -27,6 +27,7 @@ conn
           return {
             ...product,
             id: `SKU${number}`,
+            image_url: [product.image],
           };
         }
         if (number < 10) {
@@ -34,12 +35,14 @@ conn
           return {
             ...product,
             id: idHard,
+            image_url: [product.image],
           };
         }
         idHard = `SKU0${number}`;
         return {
           ...product,
           id: idHard,
+          image_url: [product.image],
         };
       });
 

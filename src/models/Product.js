@@ -18,8 +18,14 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    image: {
-      type: DataTypes.STRING,
+    color: {
+      type: DataTypes.ARRAY(DataTypes.STRING),
+    },
+    image_id: {
+      type: DataTypes.ARRAY(DataTypes.STRING),
+    },
+    image_url: {
+      type: DataTypes.ARRAY(DataTypes.STRING),
     },
     price: {
       type: DataTypes.FLOAT,

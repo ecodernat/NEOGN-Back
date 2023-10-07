@@ -1,5 +1,7 @@
 const { Router } = require("express");
 
+const upload = require("../services/multer/config");
+
 const createProduct = require("../controllers/Products/createProduct");
 const getProductById = require("../controllers/Products/getProductById");
 const getProducts = require("../controllers/Products/getProducts");
@@ -69,11 +71,11 @@ router.get("/:id", async (req, res) => {
 
 /**----            Crear producto               ----**/
 
-router.post("/create", async (req, res) => {
+router.post("/create", upload.array("image"), async (req, res) => {
   try {
     const data = req.body;
-
-    const newProduct = await createProduct(data);
+    const images = req.files;
+    const newProduct = await createProduct(data, images);
 
     res.status(200).json(newProduct);
   } catch (error) {
@@ -83,12 +85,13 @@ router.post("/create", async (req, res) => {
 });
 
 /**----               Modificar producto          ----**/
-router.put("/update/:id", async (req, res) => {
+router.put("/update/:id", upload.array("image"), async (req, res) => {
   try {
     const { id } = req.params;
     const data = req.body;
+    const images = req.files ?? "";
 
-    const product = await putProduct(id, data);
+    const product = await putProduct(id, data, images);
 
     res.status(200).json(product);
   } catch (error) {

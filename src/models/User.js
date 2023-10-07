@@ -24,8 +24,13 @@ module.exports = (sequelize) => {
     password: {
       type: DataTypes.STRING,
     },
-    photo: {
+    photo_id: {
       type: DataTypes.STRING,
+    },
+    photo_url: {
+      type: DataTypes.STRING,
+      defaultValue:
+        "https://res.cloudinary.com/testing-pf-swiftbuy/image/upload/v1695223617/swiftbuy/users/default/bxzutsvzxzslpak5evcq.jpg",
     },
     address: {
       type: DataTypes.TEXT,
