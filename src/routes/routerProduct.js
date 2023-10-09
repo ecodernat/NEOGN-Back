@@ -74,7 +74,7 @@ router.get("/:id", async (req, res) => {
 router.post("/create", upload.array("image"), async (req, res) => {
   try {
     const data = req.body;
-    const images = req.files;
+    const images = req.files ?? null;
     const newProduct = await createProduct(data, images);
 
     res.status(200).json(newProduct);
@@ -89,7 +89,7 @@ router.put("/update/:id", upload.array("image"), async (req, res) => {
   try {
     const { id } = req.params;
     const data = req.body;
-    const images = req.files ?? "";
+    const images = req.files ?? null;
 
     const product = await putProduct(id, data, images);
 

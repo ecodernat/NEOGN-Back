@@ -1,20 +1,14 @@
 const db = require("../../db");
 
-const getUser = async (id) => {
+const getUser = async (clientId) => {
   try {
-    const user = await db.User.findByPk(id, {
-      include: [db.Order, db.Product],
-    });
-
-    return user
-      ? user
-      : (() => {
-          throw new Error("User not found");
-        })();
+    const user = await db.User.findOne({ where: { clientId } });
+    if (!user) {
+      throw new Error("User not found");
+    }
+    return user;
   } catch (error) {
-    console.log(error);
-
-    throw new Error("There was an error:" + error);
+    throw error;
   }
 };
 

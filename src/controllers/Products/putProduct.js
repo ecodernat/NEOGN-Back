@@ -3,6 +3,7 @@ const {
   delMultiImg,
   uploadMultiImg,
 } = require("../../utils/cloudinary/cloudinary");
+const { deleteFile } = require("../../utils/helpers/delFile");
 
 const putProduct = async (id, data, images) => {
   const product = await db.Product.findByPk(id);
@@ -27,6 +28,7 @@ const putProduct = async (id, data, images) => {
       image_id: public_id,
       image_url: url,
     };
+    deleteFile(images);
   }
 
   await product.update(updateProduct);

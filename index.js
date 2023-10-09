@@ -22,9 +22,9 @@ conn
       });
 
       const products = data.products.map((product) => {
-        const rating = product.rating.map((rat) => Math.round(rat));
+        // const rating = product.rating.map((rat) => Math.round(rat));
 
-        product.averageRating = calculateAverageRating(rating);
+        product.averageRating = calculateAverageRating(product.rating);
         product.discount = Math.floor(Math.random() * 25);
 
         let number = parseInt(idHard.split("U")[1]);

@@ -14,18 +14,26 @@ const generateSKU = () => {
 };
 
 const createProduct = async (data, images) => {
-  const response = await uploadMultiImg(images, data.category);
-  const url = response.map((img) => img.secure_url);
-  const public_id = response.map((img) => img.public_id);
+  if (Array.isArray(images) && images.length > 0) {
+    const response = await uploadMultiImg(images, data.category);
+    const url = response.map((img) => img.secure_url);
+    const public_id = response.map((img) => img.public_id);
+    const product = {
+      ...data,
+      image_id: url,
+      image_url: public_id,
+      id: data.SKU ? data.SKU : generateSKU(),
+    };
+
+    const newProduct = await db.Product.create(product);
+    deleteFile(images, 10000);
+    return newProduct;
+  }
   const product = {
     ...data,
-    image_id: url,
-    image_url: public_id,
     id: data.SKU ? data.SKU : generateSKU(),
   };
-
   const newProduct = await db.Product.create(product);
-  deleteFile(images, 10000);
   return newProduct;
 };
 

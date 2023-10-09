@@ -2,11 +2,13 @@ const { Router } = require("express");
 
 const upload = require("../services/multer/config");
 
+const { tokenValidator } = require("../middlewares/jsonWebToken");
+
 const getUsers = require("../controllers/User/getUsers");
 const getUserById = require("../controllers/User/getUserById");
 const deleteUser = require("../controllers/User/deleteUser");
 const signUp = require("../controllers/User/signUp");
-const login = require("../controllers/User/login");
+const userLogin = require("../controllers/User/login");
 const postProfileImg = require("../controllers/User/postProfileImg");
 const restoreUser = require("../controllers/User/restoreUser");
 const putUser = require("../controllers/User/putUser");
@@ -67,19 +69,36 @@ router.put("/restore/:id", async (req, res) => {
   }
 });
 
-//POST
+// SignUp
 router.post("/signup", async (req, res) => {
   try {
-    const { name, username, email, password, photo } = req.body;
-    console.log(req.body);
+    const { clientId, name, email, photo } = req.body;
 
-    const newUser = await signUp({ name, username, email, password, photo });
+    const token = await signUp({ clientId, name, email, photo });
 
-    return res.status(200).json(newUser);
+    res.status(200).json({ token });
   } catch (error) {
     console.log(error.message);
-
     res.status(400).send(error.message);
+  }
+});
+
+// Login
+router.post("/login", tokenValidator, async (req, res) => {
+  try {
+    const token = req.headers.authorization?.split(" ")[1];
+    const { username, password, email, phone } = req.body;
+    const userToLogin = await userLogin(
+      username,
+      password,
+      email,
+      phone,
+      token
+    );
+    res.status(200).json(userToLogin);
+  } catch (error) {
+    console.log(error.message);
+    res.status(400).json({ error: error.message });
   }
 });
 
@@ -98,39 +117,5 @@ router.put("/update/:id", async (req, res) => {
 });
 
 router.post("/profile/:id", upload.single("image"), postProfileImg);
-
-// router.post("/login", async (req, res) => {
-//   try {
-//     const { email, password } = req.body;
-
-//     const user = await login(email, password);
-
-//     const { accessToken, refreshToken } = signTokens(user.id);
-
-//     return res.status(200).json({ access: true, accessToken, refreshToken });
-//   } catch (error) {
-//     console.log(error.message);
-
-//     res.status(400).send(error.message);
-//   };
-// });
-
-// Refresh token
-// router.post("/refresh", refreshToken, (req, res) => {
-//   try {
-//     const newAccessToken = req.locals.newAccessToken;
-//     const newRefreshToken = req.locals.newRefreshToken;
-
-//     if (!newAccessToken || !newRefreshToken) {
-//       throw new Error("Unable to renew access tokens.");
-//     }
-
-//     res.status(200).json({ auth: true, accessToken: newAccessToken, refreshToken: newRefreshToken });
-//   } catch (error) {
-//     console.log(error.message);
-
-//     res.status(400).json({ auth: false, message: error.message });
-//   };
-// });
 
 module.exports = router;

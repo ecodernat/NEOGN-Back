@@ -158,7 +158,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/QtMgkVq.png",
       "price": 199.99,
-      "rating": [4.9, 4.8, 5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Micrófono PodcastMaster Pro",
@@ -166,7 +166,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/LqjDNE5.png",
       "price": 129.99,
-      "rating": [4.7, 4.6, 4.9]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Micrófono USB SoundCaster",
@@ -174,7 +174,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/8T1D37Z.png",
       "price": 79.99,
-      "rating": [4.5, 4.7, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Micrófono de Solapa ProSound",
@@ -182,7 +182,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/nrw7Juo.png",
       "price": 59.99,
-      "rating": [4.3, 4.4, 4.2]
+      "rating": [4, 4, 2]
     },
     {
       "name": "Micrófono de Estudio MasterClass",
@@ -190,7 +190,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/fA8t8CT.png",
       "price": 249.99,
-      "rating": [4.9, 5, 4.8]
+      "rating": [4, 5, 4]
     },
     {
       "name": "Micrófono Lavalier MiniClip",
@@ -198,7 +198,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/1rVL0Ai.png",
       "price": 49.99,
-      "rating": [4.4, 4.3, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Micrófono USB Portátil GoMic",
@@ -206,7 +206,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/IIpJDVP.png",
       "price": 69.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Micrófono de Escenario ProVoice",
@@ -214,7 +214,7 @@
       "category": "Microphones",
       "image": "https://i.imgur.com/7yN67Hv.png",
       "price": 149.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Mousepad Gamer ProX",
@@ -222,7 +222,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/ugIOiUa.png",
       "price": 19.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Mousepad Creativo Artistico",
@@ -230,7 +230,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/UPB1zgu.png",
       "price": 14.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Mousepad Ergonómico Con Reposamuñecas",
@@ -238,7 +238,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/2g6Z2pg.png",
       "price": 24.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Mousepad Ultrafino Premium",
@@ -246,7 +246,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/YU2FqTs.png",
       "price": 9.99,
-      "rating": [4.4, 4.3, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Mousepad XXL para Juegos",
@@ -254,7 +254,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/q7N6euu.png",
       "price": 29.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Mousepad de Cuero de Lujo",
@@ -262,7 +262,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/2RzBRJc.png",
       "price": 39.99,
-      "rating": [4.9, 5, 4.8]
+      "rating": [4, 5, 4]
     },
     {
       "name": "Mousepad con Iluminación LED RGB",
@@ -270,7 +270,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/Q0XNW6r.png",
       "price": 34.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Mousepad de Diseño Floral",
@@ -278,7 +278,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/PjTXbt9.png",
       "price": 17.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Mousepad con Soporte para Teléfono",
@@ -286,7 +286,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/2TMO3F3.png",
       "price": 22.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Mousepad de Tamaño Compacto",
@@ -294,7 +294,7 @@
       "category": "Mousepads",
       "image": "https://i.imgur.com/5m8bF70.png",
       "price": 7.99,
-      "rating": [4.3, 4.2, 4.4]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico Gamer Pro",
@@ -302,7 +302,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/qgIygel.png",
       "price": 129.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico Compacto TKL",
@@ -310,7 +310,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/T3ofqbR.png",
       "price": 89.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Teclado Mecánico RGB Luminoso",
@@ -318,7 +318,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/8tfqIen.png",
       "price": 159.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico de Alta Velocidad",
@@ -326,7 +326,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/xWW1EBv.png",
       "price": 119.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico Retro Compacto",
@@ -334,7 +334,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/0cwoDfq.png",
       "price": 99.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Teclado Mecánico Silencioso",
@@ -342,7 +342,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/U89KcCF.png",
       "price": 109.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico con Reposamuñecas",
@@ -350,7 +350,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/FSMcoKS.png",
       "price": 129.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico RGB Compacto",
@@ -358,7 +358,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/WIAbBh6.png",
       "price": 139.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico Retroiluminado",
@@ -366,7 +366,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/C1ja3qn.png",
       "price": 109.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Teclado Mecánico Compacto Sin Fricción",
@@ -374,7 +374,7 @@
       "category": "Keyboards",
       "image": "https://i.imgur.com/xL9X3Hk.png",
       "price": 119.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos SonicBass",
@@ -382,7 +382,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/s8galuP.png",
       "price": 49.99,
-      "rating": [4.5, 4.7, 4.4]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos AirTunes Pro",
@@ -390,7 +390,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/2HAQX4J.png",
       "price": 129.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos Deportivos FitBeat",
@@ -398,7 +398,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/598dJP9.png",
       "price": 59.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos EchoPods",
@@ -406,7 +406,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/P5yqWf5.png",
       "price": 39.99,
-      "rating": [4.4, 4.3, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos BassXtreme",
@@ -414,7 +414,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/GTJk2Fx.png",
       "price": 69.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos SoundMate",
@@ -422,7 +422,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/WHso6ZC.png",
       "price": 29.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos con Estuche de Carga",
@@ -430,7 +430,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/6yfnUVB.png",
       "price": 79.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos con Cancelación de Ruido",
@@ -438,7 +438,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/5iWFQIa.png",
       "price": 99.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos Deportivos ProFit",
@@ -446,7 +446,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/Rg26lhE.png",
       "price": 49.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Auriculares Inalámbricos Hi-Fi Premium",
@@ -454,7 +454,7 @@
       "category": "Earbuds",
       "image": "https://i.imgur.com/2zyNGYV.png",
       "price": 149.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Ratón de Computadora PrecisionX",
@@ -462,7 +462,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/mRdzmwC.png",
       "price": 29.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Ratón de Computadora Gamer Elite",
@@ -470,7 +470,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/gnlFiwX.png",
       "price": 49.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Ratón de Computadora Ergonómico ProFit",
@@ -478,7 +478,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/uUoNJDn.png",
       "price": 39.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Ratón de Computadora Compacto MiniMouse",
@@ -486,7 +486,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/2FO6mS7.png",
       "price": 19.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Ratón de Computadora Avanzado TurboClick",
@@ -494,7 +494,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/4vTTjiV.png",
       "price": 34.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Ratón de Computadora Silencioso WhisperPro",
@@ -502,7 +502,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/IiLYVxU.png",
       "price": 24.99,
-      "rating": [4.4, 4.3, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Ratón de Computadora con Botones Programables",
@@ -510,7 +510,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/c3ueZH5.png",
       "price": 29.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Ratón de Computadora ErgoGrip",
@@ -518,7 +518,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/RdwnTcv.png",
       "price": 34.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Ratón de Computadora de Alta Velocidad TurboScroll",
@@ -526,7 +526,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/nVVkD0X.png",
       "price": 27.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Ratón de Computadora para Diseñadores Creativos",
@@ -534,7 +534,7 @@
       "category": "Mice",
       "image": "https://i.imgur.com/nFvOpbm.png",
       "price": 59.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Control de Videojuegos ProGamer X1",
@@ -542,7 +542,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/yjXAMiK.png",
       "price": 49.99,
-      "rating": [4.8, 4.9, 4.7]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Control de Videojuegos Inalámbrico Elite",
@@ -550,7 +550,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/UUFFc7e.png",
       "price": 69.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Control de Videojuegos Retro Classic",
@@ -558,7 +558,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/JKnYMs7.png",
       "price": 39.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [5, 4, 4]
     },
     {
       "name": "Control de Videojuegos Compacto MiniPad",
@@ -566,7 +566,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/zrycXFt.png",
       "price": 29.99,
-      "rating": [4.4, 4.3, 4.5]
+      "rating": [4, 4, 5]
     },
     {
       "name": "Control de Videojuegos con Vibración RumbleX",
@@ -574,7 +574,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/NP5MDF6.png",
       "price": 59.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 2, 4]
     },
     {
       "name": "Control de Videojuegos ProMotion",
@@ -582,7 +582,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/L8RfZKg.png",
       "price": 54.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Control de Videojuegos Retro con Cable",
@@ -590,7 +590,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/x7JMV8B.png",
       "price": 24.99,
-      "rating": [4.3, 4.2, 4.4]
+      "rating": [3, 2, 4]
     },
     {
       "name": "Control de Videojuegos Profesional TurboFire",
@@ -598,7 +598,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/mSBTaTl.png",
       "price": 59.99,
-      "rating": [4.6, 4.7, 4.5]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Control de Videojuegos con Iluminación LED RGB",
@@ -606,7 +606,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/hHf0WYY.png",
       "price": 44.99,
-      "rating": [4.5, 4.6, 4.4]
+      "rating": [4, 4, 4]
     },
     {
       "name": "Control de Videojuegos Inalámbrico TurboPro",
@@ -614,7 +614,7 @@
       "category": "Controllers",
       "image": "https://i.imgur.com/Caa0kkj.png",
       "price": 49.99,
-      "rating": [4.7, 4.8, 4.6]
+      "rating": [4, 4, 4]
     }
   ],
   "users": [
