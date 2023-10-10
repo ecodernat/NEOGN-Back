@@ -24,7 +24,7 @@ const sendPurchaseEmail = async (user, order) => {
       
       <head>
           <meta charset="UTF-8">
-          <title>Thank you for your purchase at SwiftBuy!</title>
+          <title>Thank you for your purchase at NEOGN!</title>
           <style>
               /* Estilos generales */
               body {
@@ -84,7 +84,7 @@ const sendPurchaseEmail = async (user, order) => {
       <body>
           <div class="container">
               <div class="card">
-                  <h1>Thank you for your purchase at SwiftBuy!</h1>
+                  <h1>Thank you for your purchase at NEOGN!</h1>
                   <p>Hi ${user.name}!</p>
                   <p>Thank you for making your purchase on our site. We hope you are excited to receive your order.</p>
               </div>
@@ -104,7 +104,7 @@ const sendPurchaseEmail = async (user, order) => {
                   <p>Click the button below to visit our site:</p>
                   <a class="cta-button" href="http://swiftbuypf.netlify.app">Visit SwiftBuy</a>
               </div>
-              <p class="footer">© 2023 SwiftBuy. All rights reserved.</p>
+              <p class="footer">© 2023 NEOGN. All rights reserved.</p>
           </div>
       </body>
       

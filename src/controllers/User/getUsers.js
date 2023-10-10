@@ -1,15 +1,11 @@
 const db = require("../../db");
 
 const getUsers = async () => {
-  try {
-    const users = await db.User.findAll();
+  const users = await db.User.findAll();
 
-    return users;
-  } catch (error) {
-    console.log(error);
+  if (!users.length) throw new Error("Users not found");
 
-    throw new Error("There was an error:" + error);
-  }
+  return users;
 };
 
 module.exports = getUsers;

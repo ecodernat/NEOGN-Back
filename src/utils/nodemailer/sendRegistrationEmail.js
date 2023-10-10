@@ -96,7 +96,7 @@ const sendRegistrationEmail = async (userId) => {
             <a class="cta-button" href="http://swiftbuypf.netlify.app">Visit SwiftBuy</a>
         </div>
         <div class="footer">
-            <p>© 2023 Henry Project. All rights reserved.</p>
+            <p>© 2023 NEOGN. All rights reserved.</p>
         </div>
     </div>
 </body>
