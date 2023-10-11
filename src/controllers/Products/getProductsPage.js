@@ -6,11 +6,11 @@ const getProductsPage = async (page, products) => {
       ? products
       : await db.Product.findAll();
 
+  page = page ? Number(page) : 1;
+
   const lastProduct = page * 10;
   const firstProduct = lastProduct - 10;
   const currentProducts = allProducts.slice(firstProduct, lastProduct);
-
-  page = Number(page);
 
   const next = page + 1 <= Math.ceil(allProducts.length / 10) ? page + 1 : null;
   const prev = page - 1 >= 1 ? page - 1 : null;
