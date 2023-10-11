@@ -6,11 +6,11 @@ const upload = require("../services/multer/config");
 
 const getUsers = require("../controllers/User/getUsers");
 const getUserById = require("../controllers/User/getUserById");
-const deleteUser = require("../controllers/User/deleteUser");
+// const deleteUser = require("../controllers/User/deleteUser");
 const signUp = require("../controllers/User/signUp");
 // const userLogin = require("../controllers/User/login");
 const postProfileImg = require("../controllers/User/postProfileImg");
-const restoreUser = require("../controllers/User/restoreUser");
+// const restoreUser = require("../controllers/User/restoreUser");
 const putUser = require("../controllers/User/putUser");
 
 const router = Router();
@@ -43,31 +43,31 @@ router.get("/:id", async (req, res) => {
 });
 
 //LOGICAL DELETION
-router.put("/delete/:id", async (req, res) => {
-  try {
-    const { id } = req.params;
+// router.put("/delete/:id", async (req, res) => {
+//   try {
+//     const { id } = req.params;
 
-    const message = await deleteUser(id);
+//     const message = await deleteUser(id);
 
-    return res.status(200).json({ message });
-  } catch (error) {
-    console.log(error.message);
+//     return res.status(200).json({ message });
+//   } catch (error) {
+//     console.log(error.message);
 
-    res.status(400).json({ error: error.message });
-  }
-});
+//     res.status(400).json({ error: error.message });
+//   }
+// });
 
-router.put("/restore/:id", async (req, res) => {
-  try {
-    const { id } = req.params;
-    await restoreUser(id);
+// router.put("/restore/:id", async (req, res) => {
+//   try {
+//     const { id } = req.params;
+//     await restoreUser(id);
 
-    res.status(200).json({ message: "The user has been restored" });
-  } catch (error) {
-    console.log(error.message);
-    res.status(400).json({ error: error.message });
-  }
-});
+//     res.status(200).json({ message: "The user has been restored" });
+//   } catch (error) {
+//     console.log(error.message);
+//     res.status(400).json({ error: error.message });
+//   }
+// });
 
 // SignUp
 router.post("/signup", async (req, res) => {

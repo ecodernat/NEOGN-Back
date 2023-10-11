@@ -128,4 +128,13 @@ router.delete("/:id", async (req, res) => {
   }
 });
 
+// router.post("/images/:id", upload.array("image"), (req, res) => {
+//   try {
+//     const { id } = req.params;
+//   } catch (error) {
+//     console.log(error.message);
+//     res.status(500).json({ error: error.message });
+//   }
+// });
+
 module.exports = router;
