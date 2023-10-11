@@ -43,7 +43,7 @@ router.get("/:id", async (req, res) => {
 });
 
 //LOGICAL DELETION
-router.delete("/delete/:id", async (req, res) => {
+router.put("/delete/:id", async (req, res) => {
   try {
     const { id } = req.params;
 
