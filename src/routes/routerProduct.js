@@ -10,6 +10,7 @@ const putProduct = require("../controllers/Products/putProduct");
 const putRatingProduct = require("../controllers/Products/putRatingProducts");
 const getFilteredProductsHandler = require("../controllers/Products/getProductFilter");
 const deleteProduct = require("../controllers/Products/delProductById");
+const postImagesProducts = require("../controllers/Products/postImagesProducts");
 
 const router = Router();
 
@@ -89,9 +90,8 @@ router.put("/update/:id", upload.array("image"), async (req, res) => {
   try {
     const { id } = req.params;
     const data = req.body;
-    const images = req.files ?? null;
 
-    const product = await putProduct(id, data, images);
+    const product = await putProduct(id, data);
 
     res.status(200).json(product);
   } catch (error) {
@@ -128,13 +128,17 @@ router.delete("/:id", async (req, res) => {
   }
 });
 
-// router.post("/images/:id", upload.array("image"), (req, res) => {
-//   try {
-//     const { id } = req.params;
-//   } catch (error) {
-//     console.log(error.message);
-//     res.status(500).json({ error: error.message });
-//   }
-// });
+router.post("/images/:id", upload.array("image"), async (req, res) => {
+  try {
+    const { id } = req.params;
+    const images = req.files ?? null;
+
+    await postImagesProducts(id, images);
+    res.json({ message: "Uploaded" });
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ error: error.message });
+  }
+});
 
 module.exports = router;
