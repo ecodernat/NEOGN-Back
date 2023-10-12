@@ -86,7 +86,7 @@ router.post("/create", async (req, res) => {
 });
 
 /**----               Modificar producto          ----**/
-router.put("/update/:id", upload.array("image"), async (req, res) => {
+router.put("/update/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const data = req.body;
