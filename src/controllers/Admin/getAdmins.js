@@ -10,8 +10,8 @@ const getAdmins = async (req, res) => {
 
     res.status(200).json(admins);
   } catch (error) {
-    res.status(500).json({ message: "Error interno del servidor." });
+    res.status(500).json({ message: "Server error." });
   }
 };
 
-module.exports = getAdmins;
+module.exports = { getAdmins };

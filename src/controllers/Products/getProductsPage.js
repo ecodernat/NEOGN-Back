@@ -1,6 +1,6 @@
 const db = require("../../db");
 
-const getProductsPage = async (page, products) => {
+const getProductsPage = async (page, products, url) => {
   const allProducts =
     Array.isArray(products) && products.length > 0
       ? products
@@ -15,15 +15,17 @@ const getProductsPage = async (page, products) => {
   const next = page + 1 <= Math.ceil(allProducts.length / 10) ? page + 1 : null;
   const prev = page - 1 >= 1 ? page - 1 : null;
 
+  url = url ?? "products";
+
   const data = {
     info: {
       count: allProducts.length,
       pages: Math.ceil(allProducts.length / 10),
       next: next
-        ? `https://neogn-back.up.railway.app/api/products?page=${next}`
+        ? `https://neogn-back.up.railway.app/api/${url}?page=${next}`
         : next,
       prev: prev
-        ? `https://neogn-back.up.railway.app/api/products?page=${prev}`
+        ? `https://neogn-back.up.railway.app/api/${url}?page=${prev}`
         : prev,
     },
     results: currentProducts,
