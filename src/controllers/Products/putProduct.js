@@ -31,7 +31,7 @@ const putProduct = async (id, data, images) => {
     deleteFile(images);
   }
 
-  await product.update({ ...product, updateProduct });
+  await product.update({ ...product, ...updateProduct });
 
   return product;
 };
