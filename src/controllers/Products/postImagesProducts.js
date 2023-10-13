@@ -17,7 +17,7 @@ const postImagesProducts = async (id, images) => {
     await delMultiImg(product.image_id);
   }
 
-  const category = updateProduct.category ?? product.category;
+  const category = product.category;
   const result = await uploadMultiImg(images, category);
 
   const url = result.map((img) => img.secure_url);
@@ -27,9 +27,9 @@ const postImagesProducts = async (id, images) => {
     image_id: public_id,
     image_url: url,
   };
-  deleteFile(images);
+  deleteFile(images, 10000);
 
-  await product.update({ ...product, updateProduct });
+  await product.update({ ...product, ...updateProduct });
 };
 
 module.exports = postImagesProducts;

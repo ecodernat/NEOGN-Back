@@ -76,7 +76,7 @@ router.post("/create", async (req, res) => {
   try {
     const data = req.body;
 
-    const newProduct = await createProduct(data, images);
+    const newProduct = await createProduct(data);
 
     res.status(200).json(newProduct);
   } catch (error) {
@@ -132,6 +132,8 @@ router.post("/images/:id", upload.array("image"), async (req, res) => {
   try {
     const { id } = req.params;
     const images = req.files ?? null;
+
+    console.log(images);
 
     await postImagesProducts(id, images);
     res.json({ message: "Uploaded" });
