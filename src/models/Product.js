@@ -19,7 +19,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     color: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.STRING,
     },
     image_id: {
       type: DataTypes.ARRAY(DataTypes.STRING),

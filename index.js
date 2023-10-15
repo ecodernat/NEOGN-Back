@@ -34,7 +34,7 @@ conn
           return {
             ...product,
             id: `SKU${number}`,
-            image_url: [product.image],
+            image_url: product.image,
           };
         }
         if (number < 10) {
@@ -42,14 +42,14 @@ conn
           return {
             ...product,
             id: idHard,
-            image_url: [product.image],
+            image_url: product.image,
           };
         }
         idHard = `SKU0${number}`;
         return {
           ...product,
           id: idHard,
-          image_url: [product.image],
+          image_url: product.image,
         };
       });
 
