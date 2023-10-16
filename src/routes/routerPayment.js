@@ -7,6 +7,6 @@ const router = Router();
 
 router.post("/create-preference", createPreferenceMP);
 
-router.post("/webhook", receiveWebHookMP);
+router.post("/webhook/:userId", receiveWebHookMP);
 
 module.exports = router;

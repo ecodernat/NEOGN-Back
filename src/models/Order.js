@@ -4,24 +4,21 @@ module.exports = (sequelize) => {
   sequelize.define(
     "Order",
     {
-      id: {
-        type: DataTypes.INTEGER,
+      paymentId: {
+        type: DataTypes.BIGINT,
         primaryKey: true,
-        autoIncrement: true,
+        allowNull: false,
       },
       status: {
         type: DataTypes.STRING,
         defaultValue: false,
       },
       total: {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER,
       },
-      paymentMetod: {
+      paymentMethod: {
         type: DataTypes.STRING,
         defaultValue: "Mercado Pago",
-      },
-      paymentId: {
-        type: DataTypes.STRING,
       },
       preferenceId: {
         type: DataTypes.STRING,
