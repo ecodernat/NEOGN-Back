@@ -102,7 +102,7 @@ const sendPurchaseEmail = async (user, order) => {
                   <p>If you have any questions or need help with your order, don't hesitate to contact us.</p>
                   <p>We hope you enjoy your purchase and come back soon!</p>
                   <p>Click the button below to visit our site:</p>
-                  <a class="cta-button" href="http://swiftbuypf.netlify.app">Visit SwiftBuy</a>
+                  <a class="cta-button" href="https://neogn-front.up.railway.app/">Visit NEOGN</a>
               </div>
               <p class="footer">© 2023 NEOGN. All rights reserved.</p>
           </div>
@@ -116,7 +116,7 @@ const sendPurchaseEmail = async (user, order) => {
       
       <head>
           <meta charset="UTF-8">
-          <title>Continue your shopping at SwiftBuy!</title>
+          <title>Continue your shopping at NEOGN!</title>
           <style>
               /* Estilos generales */
               body {
@@ -176,17 +176,17 @@ const sendPurchaseEmail = async (user, order) => {
       <body>
           <div class="container">
               <div class="card">
-                  <h1>Continue your shopping at SwiftBuy!</h1>
+                  <h1>Continue your shopping at NEOGN!</h1>
                   <p>Hi ${user.name}!</p>
                   <p>We noticed that your payment was not approved, but don't worry. You can continue your purchase at another time.</p>
               </div>
               <div class="card">
                   <p>If you have any problems with the payment or need more information, do not hesitate to contact us.</p>
-                  <p>We hope to see you soon at SwiftBuy!</p>
+                  <p>We hope to see you soon at NEOGN!</p>
                   <p>Click the button below to visit our site:</p>
-                  <a class="cta-button" href="http://swiftbuypf.netlify.app">Visit SwiftBuy</a>
+                  <a class="cta-button" href="https://neogn-front.up.railway.app/">Visit NEOGN</a>
               </div>
-              <p class="footer">© 2023 SwiftBuy. All rights reserved.</p>
+              <p class="footer">© 2023 NEOGN. All rights reserved.</p>
           </div>
       </body>
       

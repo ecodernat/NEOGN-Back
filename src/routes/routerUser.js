@@ -74,7 +74,7 @@ router.post("/signup", async (req, res) => {
   try {
     const { clientId, name, email, photo } = req.body;
 
-    const response = await signUp({ clientId, name, email, photo });
+    const response = await signUp(clientId, name, email, photo);
 
     res.status(200).json(response);
   } catch (error) {
