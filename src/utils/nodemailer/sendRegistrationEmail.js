@@ -29,6 +29,7 @@ const sendRegistrationEmail = async (clientId) => {
             background-color: #f2f2f2;
             color: #333333;
             font-size: 16px;
+            text-decoration: none;
             line-height: 1.5;
             margin: 0;
             padding: 0;
