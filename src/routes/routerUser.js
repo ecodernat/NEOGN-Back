@@ -12,6 +12,7 @@ const signUp = require("../controllers/User/signUp");
 const postProfileImg = require("../controllers/User/postProfileImg");
 // const restoreUser = require("../controllers/User/restoreUser");
 const putUser = require("../controllers/User/putUser");
+const postMessageContact = require("../controllers/User/postMessageContact");
 
 const router = Router();
 
@@ -117,5 +118,18 @@ router.put("/update/:id", async (req, res) => {
 });
 
 router.post("/profile/:id", upload.single("image"), postProfileImg);
+
+router.post("/message", async (req, res) => {
+  try {
+    const { name, email, message } = req.body;
+
+    await postMessageContact(name, email, message);
+
+    res.json({ message: "Sent" });
+  } catch (error) {
+    console.log(error.message);
+    res.status(400).json({ error: error.message });
+  }
+});
 
 module.exports = router;

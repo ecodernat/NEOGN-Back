@@ -14,7 +14,7 @@ const signUp = async (clientId, name, email, photo) => {
     clientId,
     name,
     email,
-    photo,
+    photo_url: photo,
   });
 
   // const token = await tokenGenerator(
