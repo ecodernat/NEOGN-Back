@@ -73,9 +73,9 @@ router.get("/:id", async (req, res) => {
 // SignUp
 router.post("/signup", async (req, res) => {
   try {
-    const { clientId, name, email, photo } = req.body;
+    const { clientId, name, email, photo_url } = req.body;
 
-    const response = await signUp(clientId, name, email, photo);
+    const response = await signUp(clientId, name, email, photo_url);
 
     res.status(200).json(response);
   } catch (error) {

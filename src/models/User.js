@@ -21,9 +21,6 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       unique: true,
     },
-    password: {
-      type: DataTypes.STRING,
-    },
     photo_id: {
       type: DataTypes.STRING,
     },

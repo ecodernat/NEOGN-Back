@@ -5,16 +5,16 @@ const {
   sendRegistrationEmail,
 } = require("../../utils/nodemailer/sendRegistrationEmail");
 
-const signUp = async (clientId, name, email, photo) => {
+const signUp = async (clientId, name, email, photo_url) => {
   console.log(clientId);
   console.log(name);
   console.log(email);
-  console.log(photo);
+  console.log(photo_url);
   const newUser = await db.User.create({
     clientId,
     name,
     email,
-    photo_url: photo,
+    photo_url,
   });
 
   // const token = await tokenGenerator(
