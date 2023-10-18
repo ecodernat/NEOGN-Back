@@ -13,10 +13,15 @@ mercadopago.configure({
   access_token: process.env.MP_TOKEN,
 });
 
+server.use(helmet.contentSecurityPolicy({
+  directives: {
+    defaultSrc: ["'self'"],
+    scriptSrc: ["'self'", "https://http2.mlstatic.com"],
+  },
+}));
 server.use(express.urlencoded({ extended: false }));
 server.use(express.json());
 server.use(morgan("dev"));
-server.use(helmet());
 server.use(compression());
 server.use(cors());
 

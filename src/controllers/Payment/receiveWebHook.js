@@ -1,7 +1,5 @@
-const { Order, User, Product } = require("../../db");
-const {
-  sendPurchaseEmail,
-} = require("../../utils/nodemailer/sendPurchaseEmail");
+// const { Order, User, Product } = require("../../db");
+// const { sendPurchaseEmail } = require("../../utils/email");
 const mercadopago = require("mercadopago");
 const axios = require("axios");
 
@@ -62,7 +60,7 @@ const receiveWebHook = async (req, res) => {
       try {
         if (params.userId && params.userId.trim() !== "") {
           const createUserResponse = await axios.post(
-            "http://localhost:3001/api/orders",
+            "https://neogn-back.up.railway.app/api/orders",
             {
               userId: params.userId,
               paymentId: requestId,
