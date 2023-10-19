@@ -4,6 +4,8 @@ const getPage = require("./getProductsPage");
 const getFilteredProducts = async (category, min, max, order, page) => {
   let products = await db.Product.findAll();
 
+  products = products.filter((product) => product.isAvailable === true);
+
   if (category) {
     products = products.filter((product) => product.category === category);
   }
