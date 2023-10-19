@@ -11,7 +11,7 @@
         "https://http2.mlstatic.com/D_NQ_NP_2X_642347-MLA48131245448_112021-F.webp",
         "https://http2.mlstatic.com/D_NQ_NP_2X_816471-MLA48131292347_112021-F.webp"
       ],
-      "price": 79.99,
+      "price": 79,
       "rating": [2, 3, 4]
     },
     {
@@ -176,7 +176,7 @@
       "description": "El Micrófono StudioPro X1 es la elección perfecta para grabaciones de estudio de alta calidad. Captura audio cristalino con su diseño de condensador y suprime ruidos no deseados para resultados profesionales.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/QtMgkVq.png"],
-      "price": 199.99,
+      "price": 199,
       "rating": [4, 4, 5]
     },
     {
@@ -184,7 +184,7 @@
       "description": "Eleva tu podcast a un nivel superior con el Micrófono PodcastMaster Pro. Ofrece una claridad de voz excepcional y una fácil conectividad a tu equipo de grabación.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/LqjDNE5.png"],
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4]
     },
     {
@@ -192,7 +192,7 @@
       "description": "El Micrófono USB SoundCaster es la solución perfecta para grabaciones en casa y transmisiones en vivo. Conéctalo directamente a tu computadora y disfruta de una calidad de sonido superior.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/8T1D37Z.png"],
-      "price": 79.99,
+      "price": 79,
       "rating": [4, 4, 4]
     },
     {
@@ -200,7 +200,7 @@
       "description": "El Micrófono de Solapa ProSound es ideal para entrevistas y grabaciones en movimiento. Con su diseño compacto y clips de sujeción, captura audio nítido dondequiera que vayas.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/nrw7Juo.png"],
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 2]
     },
     {
@@ -208,7 +208,7 @@
       "description": "El Micrófono de Estudio MasterClass es una elección premium para grabaciones de alta fidelidad. Su diseño de condensador y diafragma grande garantizan una calidad de sonido excepcional.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/fA8t8CT.png"],
-      "price": 249.99,
+      "price": 249,
       "rating": [4, 5, 4]
     },
     {
@@ -216,7 +216,7 @@
       "description": "El Micrófono Lavalier MiniClip es perfecto para presentaciones y videos. Con su discreto diseño y clip de sujeción, proporciona un audio claro y sin interferencias.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/1rVL0Ai.png"],
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 5]
     },
     {
@@ -224,7 +224,7 @@
       "description": "El Micrófono USB Portátil GoMic es compacto y versátil. Llévalo contigo donde quieras y disfruta de una calidad de audio excepcional en tus grabaciones y videoconferencias.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/IIpJDVP.png"],
-      "price": 69.99,
+      "price": 69,
       "rating": [4, 4, 5]
     },
     {
@@ -232,7 +232,7 @@
       "description": "El Micrófono de Escenario ProVoice es resistente y confiable para actuaciones en vivo. Su diseño robusto y respuesta de frecuencia equilibrada aseguran un rendimiento excepcional en el escenario.",
       "category": "Microphones",
       "image": ["https://i.imgur.com/7yN67Hv.png"],
-      "price": 149.99,
+      "price": 149,
       "rating": [4, 4, 4]
     },
     {
@@ -240,7 +240,7 @@
       "description": "El Mousepad Gamer ProX es esencial para jugadores que buscan precisión. Su superficie de textura suave y base antideslizante garantizan un control óptimo para tus movimientos de ratón más rápidos.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/ugIOiUa.png"],
-      "price": 19.99,
+      "price": 19,
       "rating": [4, 4, 5]
     },
     {
@@ -248,7 +248,7 @@
       "description": "El Mousepad Creativo Artístico es perfecto para creativos y diseñadores. Su diseño único y superficie de alta calidad hacen que sea ideal para trabajos de diseño y edición de fotos.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/UPB1zgu.png"],
-      "price": 14.99,
+      "price": 14,
       "rating": [4, 4, 4]
     },
     {
@@ -256,7 +256,7 @@
       "description": "El Mousepad Ergonómico con Reposamuñecas proporciona comodidad durante horas de uso. Su almohadilla de gel y diseño ergonómico reducen la fatiga en la muñeca y mejoran la productividad.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/2g6Z2pg.png"],
-      "price": 24.99,
+      "price": 24,
       "rating": [5, 4, 4]
     },
     {
@@ -264,7 +264,7 @@
       "description": "El Mousepad Ultrafino Premium ofrece un diseño elegante y minimalista. Su perfil delgado lo hace ideal para espacios de trabajo organizados y proporciona un control preciso del ratón.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/YU2FqTs.png"],
-      "price": 9.99,
+      "price": 9,
       "rating": [4, 4, 4]
     },
     {
@@ -272,7 +272,7 @@
       "description": "El Mousepad XXL para Juegos es perfecto para jugadores que necesitan espacio. Con un gran tamaño, puedes disfrutar de una superficie uniforme para movimientos suaves y precisos del ratón.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/q7N6euu.png"],
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 4]
     },
     {
@@ -280,7 +280,7 @@
       "description": "El Mousepad de Cuero de Lujo agrega un toque de elegancia a tu escritorio. Confeccionado con cuero de alta calidad, combina estilo y funcionalidad para una experiencia de usuario excepcional.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/2RzBRJc.png"],
-      "price": 39.99,
+      "price": 39,
       "rating": [4, 5, 4]
     },
     {
@@ -288,7 +288,7 @@
       "description": "El Mousepad con Iluminación LED RGB añade un toque de estilo a tu configuración de juego. Con opciones de iluminación personalizables, transforma tu espacio de juego en una experiencia inmersiva.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/Q0XNW6r.png"],
-      "price": 34.99,
+      "price": 34,
       "rating": [4, 4, 5]
     },
     {
@@ -296,7 +296,7 @@
       "description": "El Mousepad de Diseño Floral agrega un toque de belleza a tu escritorio. Con un patrón floral elegante, combina estilo y funcionalidad para una experiencia de usuario excepcional.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/PjTXbt9.png"],
-      "price": 17.99,
+      "price": 17,
       "rating": [4, 4, 4]
     },
     {
@@ -304,7 +304,7 @@
       "description": "El Mousepad con Soporte para Teléfono es ideal para mantener tu teléfono a mano mientras trabajas. Su diseño multifuncional lo convierte en una herramienta esencial para la productividad.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/2TMO3F3.png"],
-      "price": 22.99,
+      "price": 22,
       "rating": [5, 4, 4]
     },
     {
@@ -312,7 +312,7 @@
       "description": "El Mousepad de Tamaño Compacto es perfecto para espacios de trabajo limitados. A pesar de su tamaño reducido, proporciona un control preciso para tus tareas diarias.",
       "category": "Mousepads",
       "image": ["https://i.imgur.com/5m8bF70.png"],
-      "price": 7.99,
+      "price": 7,
       "rating": [4, 4, 4]
     },
     {
@@ -320,7 +320,7 @@
       "description": "El Teclado Mecánico Gamer Pro es la elección definitiva para jugadores profesionales. Con interruptores mecánicos de alta calidad y retroiluminación RGB personalizable, obtendrás una ventaja competitiva en cada partida.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/qgIygel.png"],
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4]
     },
     {
@@ -328,7 +328,7 @@
       "description": "El Teclado Mecánico Compacto TKL es perfecto para usuarios que valoran la portabilidad. Su diseño sin teclado numérico ahorra espacio y ofrece una experiencia de escritura de alta calidad.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/T3ofqbR.png"],
-      "price": 89.99,
+      "price": 89,
       "rating": [4, 4, 5]
     },
     {
@@ -336,7 +336,7 @@
       "description": "El Teclado Mecánico RGB Luminoso es una obra maestra de iluminación y rendimiento. Personaliza los efectos de iluminación y disfruta de una escritura suave y precisa con interruptores mecánicos.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/8tfqIen.png"],
-      "price": 159.99,
+      "price": 159,
       "rating": [4, 4, 4]
     },
     {
@@ -344,7 +344,7 @@
       "description": "El Teclado Mecánico de Alta Velocidad está diseñado para usuarios que necesitan respuestas rápidas. Con interruptores de actuación rápida, es perfecto para juegos de alta velocidad y escritura eficiente.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/xWW1EBv.png"],
-      "price": 119.99,
+      "price": 119,
       "rating": [4, 4, 4]
     },
     {
@@ -352,7 +352,7 @@
       "description": "El Teclado Mecánico Retro Compacto combina estilo vintage con tecnología moderna. Con un diseño compacto y teclas tipo máquina de escribir, es una joya para entusiastas de la escritura.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/0cwoDfq.png"],
-      "price": 99.99,
+      "price": 99,
       "rating": [5, 4, 4]
     },
     {
@@ -360,7 +360,7 @@
       "description": "El Teclado Mecánico Silencioso es perfecto para oficinas y entornos tranquilos. Ofrece una experiencia de escritura suave con interruptores silenciosos sin sacrificar la calidad.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/U89KcCF.png"],
-      "price": 109.99,
+      "price": 109,
       "rating": [4, 4, 4]
     },
     {
@@ -368,7 +368,7 @@
       "description": "El Teclado Mecánico con Reposamuñecas brinda comodidad durante largas sesiones de trabajo. Su almohadilla ergonómica permite una escritura sin fatiga y máxima productividad.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/FSMcoKS.png"],
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4]
     },
     {
@@ -376,7 +376,7 @@
       "description": "El Teclado Mecánico RGB Compacto es una combinación de estilo y rendimiento. Con interruptores mecánicos y retroiluminación personalizable, es perfecto para usuarios exigentes.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/WIAbBh6.png"],
-      "price": 139.99,
+      "price": 139,
       "rating": [4, 4, 4]
     },
     {
@@ -384,7 +384,7 @@
       "description": "El Teclado Mecánico Retroiluminado ofrece un aspecto elegante y moderno. Su retroiluminación LED ajustable permite una experiencia de escritura nocturna sin esfuerzo.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/C1ja3qn.png"],
-      "price": 109.99,
+      "price": 109,
       "rating": [4, 4, 4]
     },
     {
@@ -392,7 +392,7 @@
       "description": "El Teclado Mecánico Compacto Sin Fricción ofrece una experiencia de escritura suave y sin esfuerzo. Sus interruptores de baja fricción permiten una escritura rápida y precisa.",
       "category": "Keyboards",
       "image": ["https://i.imgur.com/xL9X3Hk.png"],
-      "price": 119.99,
+      "price": 119,
       "rating": [4, 4, 4]
     },
     {
@@ -400,7 +400,7 @@
       "description": "Disfruta de un sonido potente con los Auriculares Inalámbricos SonicBass. Con graves profundos y conexión Bluetooth estable, son ideales para los amantes de la música.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/s8galuP.png"],
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4]
     },
     {
@@ -408,7 +408,7 @@
       "description": "Los Auriculares Inalámbricos AirTunes Pro ofrecen una experiencia auditiva premium. Con cancelación de ruido y sonido de alta fidelidad, te sumergirás en la música como nunca antes.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/2HAQX4J.png"],
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4]
     },
     {
@@ -416,7 +416,7 @@
       "description": "Los Auriculares Inalámbricos Deportivos FitBeat son ideales para tus entrenamientos. Son resistentes al agua y ofrecen un ajuste cómodo y seguro durante tus actividades físicas.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/598dJP9.png"],
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 4]
     },
     {
@@ -424,7 +424,7 @@
       "description": "Los Auriculares Inalámbricos EchoPods son compactos y elegantes. Con emparejamiento instantáneo y estuche de carga, son perfectos para la vida en movimiento.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/P5yqWf5.png"],
-      "price": 39.99,
+      "price": 39,
       "rating": [4, 4, 4]
     },
     {
@@ -432,7 +432,7 @@
       "description": "Los Auriculares Inalámbricos BassXtreme ofrecen graves profundos y un diseño elegante. Son ideales para los amantes de la música que buscan un sonido envolvente.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/GTJk2Fx.png"],
-      "price": 69.99,
+      "price": 69,
       "rating": [4, 4, 4]
     },
     {
@@ -440,7 +440,7 @@
       "description": "Los Auriculares Inalámbricos SoundMate son versátiles y asequibles. Con un sonido claro y diseño ergonómico, son perfectos para uso diario.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/WHso6ZC.png"],
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 4]
     },
     {
@@ -448,7 +448,7 @@
       "description": "Los Auriculares Inalámbricos con Estuche de Carga ofrecen una duración de batería excepcional. Con un estuche de carga compacto, estarás listo para escuchar música todo el día.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/6yfnUVB.png"],
-      "price": 79.99,
+      "price": 79,
       "rating": [4, 4, 4]
     },
     {
@@ -456,7 +456,7 @@
       "description": "Los Auriculares Inalámbricos con Cancelación de Ruido ofrecen tranquilidad en entornos ruidosos. Disfruta de tu música sin distracciones con esta tecnología avanzada.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/5iWFQIa.png"],
-      "price": 99.99,
+      "price": 99,
       "rating": [4, 4, 4]
     },
     {
@@ -464,7 +464,7 @@
       "description": "Los Auriculares Inalámbricos Deportivos ProFit son ideales para atletas. Con ajuste seguro y resistencia al sudor, te mantendrán motivado durante tus entrenamientos.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/Rg26lhE.png"],
-      "price": 49.99,
+      "price": 49,
       "rating": [5, 4, 4]
     },
     {
@@ -472,7 +472,7 @@
       "description": "Los Auriculares Inalámbricos Hi-Fi Premium ofrecen una calidad de sonido excepcional. Sumérgete en la música con sonido de alta fidelidad y comodidad duradera.",
       "category": "Earbuds",
       "image": ["https://i.imgur.com/2zyNGYV.png"],
-      "price": 149.99,
+      "price": 149,
       "rating": [4, 4, 4]
     },
     {
@@ -480,7 +480,7 @@
       "description": "El Ratón de Computadora PrecisionX es perfecto para tareas precisas. Con sensor óptico de alta precisión y diseño ergonómico, te brinda un control excepcional.",
       "category": "Mice",
       "image": ["https://i.imgur.com/mRdzmwC.png"],
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 4]
     },
     {
@@ -488,7 +488,7 @@
       "description": "El Ratón de Computadora Gamer Elite está diseñado para jugadores profesionales. Con botones programables y luces RGB personalizables, mejora tu experiencia de juego.",
       "category": "Mice",
       "image": ["https://i.imgur.com/gnlFiwX.png"],
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4]
     },
     {
@@ -496,7 +496,7 @@
       "description": "El Ratón de Computadora Ergonómico ProFit es ideal para largas horas de trabajo. Su diseño ergonómico y ajuste cómodo reducen la fatiga en la mano.",
       "category": "Mice",
       "image": ["https://i.imgur.com/uUoNJDn.png"],
-      "price": 39.99,
+      "price": 39,
       "rating": [4, 4, 4]
     },
     {
@@ -504,7 +504,7 @@
       "description": "El Ratón de Computadora Compacto MiniMouse es perfecto para viajes. Su diseño pequeño y ligero lo hace ideal para trabajar en movimiento.",
       "category": "Mice",
       "image": ["https://i.imgur.com/2FO6mS7.png"],
-      "price": 19.99,
+      "price": 19,
       "rating": [5, 4, 4]
     },
     {
@@ -512,7 +512,7 @@
       "description": "El Ratón de Computadora Avanzado TurboClick ofrece un rendimiento rápido y preciso. Con un sensor de alta velocidad, es perfecto para usuarios exigentes.",
       "category": "Mice",
       "image": ["https://i.imgur.com/4vTTjiV.png"],
-      "price": 34.99,
+      "price": 34,
       "rating": [4, 4, 5]
     },
     {
@@ -520,7 +520,7 @@
       "description": "El Ratón de Computadora Silencioso WhisperPro es ideal para oficinas tranquilas. Sus clics silenciosos no molestan a los compañeros de trabajo.",
       "category": "Mice",
       "image": ["https://i.imgur.com/IiLYVxU.png"],
-      "price": 24.99,
+      "price": 24,
       "rating": [4, 4, 4]
     },
     {
@@ -528,7 +528,7 @@
       "description": "El Ratón de Computadora con Botones Programables te permite personalizar tu experiencia. Asigna funciones específicas a los botones para una mayor productividad.",
       "category": "Mice",
       "image": ["https://i.imgur.com/c3ueZH5.png"],
-      "price": 29.99,
+      "price": 29,
       "rating": [5, 4, 4]
     },
     {
@@ -536,7 +536,7 @@
       "description": "El Ratón de Computadora ErgoGrip está diseñado para adaptarse a tu mano. Su forma ergonómica reduce la tensión y mejora la comodidad durante horas de uso.",
       "category": "Mice",
       "image": ["https://i.imgur.com/RdwnTcv.png"],
-      "price": 34.99,
+      "price": 34,
       "rating": [4, 4, 5]
     },
     {
@@ -544,7 +544,7 @@
       "description": "El Ratón de Computadora de Alta Velocidad TurboScroll es perfecto para desplazamientos rápidos. Su rueda de desplazamiento rápida facilita la navegación.",
       "category": "Mice",
       "image": ["https://i.imgur.com/nVVkD0X.png"],
-      "price": 27.99,
+      "price": 27,
       "rating": [5, 4, 4]
     },
     {
@@ -552,7 +552,7 @@
       "description": "El Ratón de Computadora para Diseñadores Creativos es preciso y versátil. Con botones personalizables y sensor de alta resolución, es una herramienta esencial para diseñadores.",
       "category": "Mice",
       "image": ["https://i.imgur.com/nFvOpbm.png"],
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 4]
     },
     {
@@ -560,7 +560,7 @@
       "description": "El Control de Videojuegos ProGamer X1 es la elección definitiva para jugadores profesionales. Con botones programables y diseño ergonómico, te brinda un control excepcional en tus partidas.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/yjXAMiK.png"],
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4]
     },
     {
@@ -568,7 +568,7 @@
       "description": "El Control de Videojuegos Inalámbrico Elite ofrece una experiencia de juego premium. Con conectividad Bluetooth y botones personalizables, mejora tu rendimiento en juegos.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/UUFFc7e.png"],
-      "price": 69.99,
+      "price": 69,
       "rating": [4, 4, 4]
     },
     {
@@ -576,7 +576,7 @@
       "description": "El Control de Videojuegos Retro Classic combina nostalgia con modernidad. Con un diseño clásico y conectividad USB, es perfecto para jugadores retro.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/JKnYMs7.png"],
-      "price": 39.99,
+      "price": 39,
       "rating": [5, 4, 4]
     },
     {
@@ -584,7 +584,7 @@
       "description": "El Control de Videojuegos Compacto MiniPad es ideal para viajes y juegos en movimiento. Su diseño pequeño y ligero lo hace perfecto para dispositivos portátiles.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/zrycXFt.png"],
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 5]
     },
     {
@@ -592,7 +592,7 @@
       "description": "El Control de Videojuegos con Vibración RumbleX ofrece una experiencia de juego inmersiva. Siente la acción con su función de vibración y controles precisos.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/NP5MDF6.png"],
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 2, 4]
     },
     {
@@ -600,7 +600,7 @@
       "description": "El Control de Videojuegos ProMotion es perfecto para juegos de alta velocidad. Con botones de respuesta rápida y diseño ergonómico, ofrece un control excepcional.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/L8RfZKg.png"],
-      "price": 54.99,
+      "price": 54,
       "rating": [4, 4, 4]
     },
     {
@@ -608,7 +608,7 @@
       "description": "El Control de Videojuegos Retro con Cable es una opción clásica y económica. Con cable USB, es compatible con una variedad de dispositivos y emuladores.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/x7JMV8B.png"],
-      "price": 24.99,
+      "price": 24,
       "rating": [3, 2, 4]
     },
     {
@@ -616,7 +616,7 @@
       "description": "El Control de Videojuegos Profesional TurboFire está diseñado para jugadores exigentes. Con disparadores de respuesta rápida y diseño ergonómico, maximiza tu rendimiento.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/mSBTaTl.png"],
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 4]
     },
     {
@@ -624,7 +624,7 @@
       "description": "El Control de Videojuegos con Iluminación LED RGB añade estilo a tu experiencia de juego. Personaliza la iluminación y disfruta de un control preciso.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/hHf0WYY.png"],
-      "price": 44.99,
+      "price": 44,
       "rating": [4, 4, 4]
     },
     {
@@ -632,7 +632,7 @@
       "description": "El Control de Videojuegos Inalámbrico TurboPro ofrece libertad de movimiento. Con conectividad Bluetooth y batería de larga duración, es perfecto para juegos sin cables.",
       "category": "Controllers",
       "image": ["https://i.imgur.com/Caa0kkj.png"],
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4]
     }
   ],

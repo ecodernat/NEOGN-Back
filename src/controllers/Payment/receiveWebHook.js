@@ -60,7 +60,7 @@ const receiveWebHook = async (req, res) => {
       try {
         if (params.userId && params.userId.trim() !== "") {
           const createUserResponse = await axios.post(
-            "https://neogn-back.up.railway.app/api/orders",
+            `${process.env.DEPLOY_BACK}/api/orders`,
             {
               userId: params.userId,
               paymentId: requestId,
