@@ -9,9 +9,9 @@ const createPreference = async (req, res) => {
       transaction_amount,
       items,
       back_urls: {
-        success: 'http://localhost:5173/',
+        success: process.env.DEPLOY_FRONT,
       },
-      notification_url: `https://neogn-front.up.railway.app/api/payment/webhook/${userId}`,
+      notification_url: `${process.env.DEPLOY_FRONT}/api/payment/webhook/${userId}`,
     };
 
     const response = await mercadopago.preferences.create(preference);
