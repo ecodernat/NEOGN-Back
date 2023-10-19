@@ -1,28 +1,18 @@
-const db = require("../../db");
 const transporter = require("../../services/nodemailer/config");
 
-const sendRegistrationEmail = async (clientId) => {
+const receiveContactEmail = (name, email, message) => {
   try {
-    const user = await db.User.findOne({
-      where: {
-        clientId,
-      },
-    });
-    if (!user) {
-      throw new Error("User not found");
-    }
-
     const mailOptionsRegistro = {
-      from: "team@neogn.com",
-      to: user.email,
-      subject: `Welcome to NEOGN, ${user.name}!`,
+      from: email,
+      to: process.env.EMAIL_TESTING,
+      subject: "Message receive!",
       html: `
    <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to NEOGN, ${user.name}!</title>
+    <title>Message receive!</title>
     <style>
         body {
             font-family: Poppins, sans-serif;
@@ -89,17 +79,14 @@ const sendRegistrationEmail = async (clientId) => {
 <body>
     <div class="container">
         <div class="header">
-            <h1>¡Thanks for registering!</h1>
+            <h1>The message we receive from user:</h1>
+            <h3>${name}</h3>
+            <h3>${email}</h3>
         </div>
         <div class="content">
-            <p class="thank-you">¡Hi ${user.name}!</p>
-            <p class="message">Thank you for registering on our site. We are excited to have you 
-            as part of our community.</p>
-            <p class="message">If you have any questions or need help, don't hesitate to contact us.</p>
-            <p class="message">¡We hope you enjoy all the benefits we have to offer.!</p>
-            <p class="message">Click the button below to start exploring our site:</p>
-            <a class="cta-button" href="https://neogn-front.up.railway.app/">Visit NEOGN</a>
-        </div>
+            
+            <p class="message">${message}</p>
+  
         <div class="footer">
             <p>© 2023 NEOGN. All rights reserved.</p>
         </div>
@@ -114,7 +101,7 @@ const sendRegistrationEmail = async (clientId) => {
       if (error) {
         console.log(error);
       } else {
-        console.log("Registration email sent: " + info.response);
+        console.log("Receive contact email sent: " + info.response);
       }
     });
   } catch (error) {
@@ -122,4 +109,4 @@ const sendRegistrationEmail = async (clientId) => {
   }
 };
 
-module.exports = { sendRegistrationEmail };
+module.exports = { receiveContactEmail };

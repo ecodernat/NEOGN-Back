@@ -123,7 +123,7 @@ router.post("/message", async (req, res) => {
   try {
     const { name, email, message } = req.body;
 
-    await postMessageContact(name, email, message);
+    postMessageContact(name, email, message);
 
     res.json({ message: "Sent" });
   } catch (error) {

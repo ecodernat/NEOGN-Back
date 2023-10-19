@@ -1,28 +1,18 @@
-const db = require("../../db");
 const transporter = require("../../services/nodemailer/config");
 
-const sendRegistrationEmail = async (clientId) => {
+const sendContactEmail = (name, email) => {
   try {
-    const user = await db.User.findOne({
-      where: {
-        clientId,
-      },
-    });
-    if (!user) {
-      throw new Error("User not found");
-    }
-
     const mailOptionsRegistro = {
-      from: "team@neogn.com",
-      to: user.email,
-      subject: `Welcome to NEOGN, ${user.name}!`,
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: "Message Sent!",
       html: `
    <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to NEOGN, ${user.name}!</title>
+    <title>Message sent!</title>
     <style>
         body {
             font-family: Poppins, sans-serif;
@@ -89,13 +79,13 @@ const sendRegistrationEmail = async (clientId) => {
 <body>
     <div class="container">
         <div class="header">
-            <h1>¡Thanks for registering!</h1>
+            <h1>We love your messages!</h1>
         </div>
         <div class="content">
-            <p class="thank-you">¡Hi ${user.name}!</p>
-            <p class="message">Thank you for registering on our site. We are excited to have you 
-            as part of our community.</p>
-            <p class="message">If you have any questions or need help, don't hesitate to contact us.</p>
+            <p class="thank-you">¡Hi ${name ?? ""}!</p>
+            <p class="message">We highly value feedback from our customers and consider it to be a fundamental part of our continuous improvement process.</p>
+            <p class="message"> We will continue to listen carefully to our customers to better understand their needs and expectations.</p>
+            <p></p>
             <p class="message">¡We hope you enjoy all the benefits we have to offer.!</p>
             <p class="message">Click the button below to start exploring our site:</p>
             <a class="cta-button" href="https://neogn-front.up.railway.app/">Visit NEOGN</a>
@@ -114,7 +104,7 @@ const sendRegistrationEmail = async (clientId) => {
       if (error) {
         console.log(error);
       } else {
-        console.log("Registration email sent: " + info.response);
+        console.log("Send contact email sent: " + info.response);
       }
     });
   } catch (error) {
@@ -122,4 +112,4 @@ const sendRegistrationEmail = async (clientId) => {
   }
 };
 
-module.exports = { sendRegistrationEmail };
+module.exports = { sendContactEmail };
