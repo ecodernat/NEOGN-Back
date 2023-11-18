@@ -4,14 +4,15 @@ const mercadopago = require("mercadopago");
 const createPreference = async (req, res) => {
   try {
     const { items, transaction_amount, userId } = req.body;
-    console.log("USER:", userId);
+    // console.log("USER:", userId);
     let preference = {
       transaction_amount,
       items,
       back_urls: {
         success: process.env.DEPLOY_FRONT,
       },
-      notification_url: `${process.env.DEPLOY_FRONT}/api/payment/webhook/${userId}`,
+      notification_url: `${process.env.DEPLOY_BACK}/api/payment/webhook/${userId}`,
+      // auto_return: "approved",
     };
 
     const response = await mercadopago.preferences.create(preference);

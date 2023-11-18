@@ -27,7 +27,7 @@ module.exports = (sequelize) => {
     photo_url: {
       type: DataTypes.STRING,
       defaultValue:
-        "https://res.cloudinary.com/testing-pf-swiftbuy/image/upload/v1695223617/swiftbuy/users/default/bxzutsvzxzslpak5evcq.jpg",
+        "https://res.cloudinary.com/testing-pf-swiftbuy/image/upload/v1698972257/neogn/default/profile_default_kwonxb.png",
     },
     address: {
       type: DataTypes.TEXT,
