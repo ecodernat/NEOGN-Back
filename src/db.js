@@ -6,10 +6,9 @@ const paymentModel = require("./models/Payment");
 const productModel = require("./models/Product");
 const userModel = require("./models/User");
 
-const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
+const { DB_DEPLOY } = process.env;
 
-const sequelize = new Sequelize(
-  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/neogn`,
+const sequelize = new Sequelize(DB_DEPLOY,
   {
     logging: false,
     native: false,
